@@ -1,7 +1,7 @@
 #ifndef __CONFIG_6TCIIEDT_H
 #define __CONFIG_6TCIIEDT_H
 
-#include "chinwag.h"
+#import "gen.h"
 
 // data used for versioning information
 extern const char* const CW_VERSION;

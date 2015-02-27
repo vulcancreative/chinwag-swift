@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "chinwag.h"
-
 FOUNDATION_EXPORT double ChinwagVersionNumber;
 FOUNDATION_EXPORT const unsigned char ChinwagVersionString[];
+
+#import "gen.h"

@@ -1,4 +1,4 @@
-#include "chinwag.h"
+#import "gen.h"
 
 cw_t cw_default_type = CW_WORDS;
 unsigned long cw_default_min_output = 1;

@@ -1,4 +1,4 @@
-#include "config.h"
+#import "config.h"
 
 const char* const CW_VERSION = "1.2.3";
 const char* const CW_DATE_YEAR = "2015";

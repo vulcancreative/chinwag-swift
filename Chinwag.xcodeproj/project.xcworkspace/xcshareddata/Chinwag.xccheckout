@@ -12,20 +12,24 @@
 	<dict>
 		<key>525992C55CE9155B4087F75575FC1200532AD462</key>
 		<string>gitolite:babble</string>
+		<key>96AF17FB0E47FD60474179557A58B6E26BC13580</key>
+		<string>https://github.com/vulcancreative/chinwag-swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ext/swift/chinwag/Chinwag.xcodeproj</string>
+	<string>Chinwag.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>525992C55CE9155B4087F75575FC1200532AD462</key>
-		<string>../../../../..</string>
+		<string>../../..</string>
+		<key>96AF17FB0E47FD60474179557A58B6E26BC13580</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>gitolite:babble</string>
+	<string>https://github.com/vulcancreative/chinwag-swift.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>525992C55CE9155B4087F75575FC1200532AD462</string>
+	<string>96AF17FB0E47FD60474179557A58B6E26BC13580</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>525992C55CE9155B4087F75575FC1200532AD462</string>
 			<key>IDESourceControlWCCName</key>
-			<string>babble</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96AF17FB0E47FD60474179557A58B6E26BC13580</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chinwag</string>
 		</dict>
 	</array>
 </dict>

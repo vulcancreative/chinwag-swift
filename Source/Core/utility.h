@@ -1,7 +1,7 @@
 #ifndef __UTILITY_B2605RTY_H
 #define __UTILITY_B2605RTY_H
 
-#include "chinwag.h"
+#import "gen.h"
 
 bool exclude(char const* str, char const* substr);
 bool exclude_num(U32* nums, U32 size, U32 subnum);

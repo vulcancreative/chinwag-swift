@@ -1,7 +1,9 @@
 #ifndef __DICT_CO6CSUAJ_H
 #define __DICT_CO6CSUAJ_H
 
-#include "chinwag.h"
+// #import <Chinwag/chinwag.h>
+// #import <Chinwag/penis.h>
+#import "gen.h"
 
 // exposed dictionary row routines
 char* cwdrow_sample

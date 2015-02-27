@@ -1,4 +1,4 @@
-#include "dict.h"
+#import "dict.h"
 
 // dictionary row utilities
 cwdrow_t cwdrow_open();

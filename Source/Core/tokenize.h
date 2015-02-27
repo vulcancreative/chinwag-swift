@@ -1,7 +1,7 @@
 #ifndef __TOKENIZE_3D9CGA6A_H
 #define __TOKENIZE_3D9CGA6A_H
 
-#include "chinwag.h"
+#import "gen.h"
 
 U32 stringify_file
 (char** buffer, FILE* fp);

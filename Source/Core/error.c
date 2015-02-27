@@ -1,4 +1,4 @@
-#include "error.h"
+#import "error.h"
 
 char* cwerror_string(cwdict_t dict, cwerror_t code)
 {

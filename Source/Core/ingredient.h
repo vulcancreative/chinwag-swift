@@ -12,7 +12,7 @@
 
 #include <xmmintrin.h>
 
-#include "chinwag.h"
+#import "gen.h"
 
 // byte values
 typedef unsigned char Byte;

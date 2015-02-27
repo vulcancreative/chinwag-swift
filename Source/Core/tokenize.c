@@ -1,4 +1,4 @@
-#include "tokenize.h"
+#import "tokenize.h"
 
 U32 stringify_file
 (char** buffer, FILE* fp)

@@ -59,17 +59,17 @@ typedef struct dictionary_container_type {
   char* name;
 } cwdict_t;
 
-#include "seuss.h"
-#include "latin.h"
+#import "seuss.h"
+#import "latin.h"
 
-#include "ingredient.h"
-#include "generator.h"
-#include "tokenize.h"
-#include "utility.h"
-#include "config.h"
-#include "error.h"
-#include "dict.h"
-#include "args.h"
+#import "ingredient.h"
+#import "generator.h"
+#import "tokenize.h"
+#import "utility.h"
+#import "config.h"
+#import "error.h"
+#import "dict.h"
+#import "args.h"
 
 // external statics
 extern cw_t cw_default_type;

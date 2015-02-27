@@ -10,7 +10,7 @@
 #ifndef __GENERATOR_Z21Z1VE3_H
 #define __GENERATOR_Z21Z1VE3_H
 
-#include "chinwag.h"
+#import "gen.h"
 
 // custom string to 32-bit integer hashing function
 U32 hash(const char* string);

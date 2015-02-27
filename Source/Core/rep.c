@@ -1,4 +1,4 @@
-#include "chinwag.h"
+#import "gen.h"
 
 I32 main(I32 argc, const char *argv[])
 {

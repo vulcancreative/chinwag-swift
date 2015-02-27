@@ -1,7 +1,7 @@
 #ifndef __OPTIONS_UDG3E1NX_H
 #define __OPTIONS_UDG3E1NX_H
 
-#include "chinwag.h"
+#import "gen.h"
 
 U32 help(void);
 U32 version(void);

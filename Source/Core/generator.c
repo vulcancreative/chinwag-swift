@@ -7,7 +7,7 @@
 // Copyright (c) 2012 - 2014, Vulcan Creative, LLC.
 // Original "mother" term coined by George Marsaglia, RIP
 
-#include "generator.h"
+#import "generator.h"
 
 static const U32 crc32_table[8][256] =
 {

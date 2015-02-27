@@ -1,4 +1,4 @@
-#include "args.h"
+#import "args.h"
 
 U32 help(void)
 {
