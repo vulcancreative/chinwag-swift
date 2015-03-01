@@ -35,6 +35,15 @@
 		836CAB481A9FCF39003BC3CA /* tokenize.h in Headers */ = {isa = PBXBuildFile; fileRef = 836CAB321A9FCF39003BC3CA /* tokenize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836CAB491A9FCF39003BC3CA /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 836CAB331A9FCF39003BC3CA /* utility.c */; };
 		836CAB4A1A9FCF39003BC3CA /* utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 836CAB341A9FCF39003BC3CA /* utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839B755C1AA10ACC00C8F4A1 /* chinwag_testcase_clean_cleaned in Resources */ = {isa = PBXBuildFile; fileRef = 839B75531AA10ACC00C8F4A1 /* chinwag_testcase_clean_cleaned */; };
+		839B755D1AA10ACC00C8F4A1 /* chinwag_testcase_clean_original in Resources */ = {isa = PBXBuildFile; fileRef = 839B75541AA10ACC00C8F4A1 /* chinwag_testcase_clean_original */; };
+		839B755E1AA10ACC00C8F4A1 /* chinwag_testcase_join_comma in Resources */ = {isa = PBXBuildFile; fileRef = 839B75551AA10ACC00C8F4A1 /* chinwag_testcase_join_comma */; };
+		839B755F1AA10ACC00C8F4A1 /* chinwag_testcase_join_default in Resources */ = {isa = PBXBuildFile; fileRef = 839B75561AA10ACC00C8F4A1 /* chinwag_testcase_join_default */; };
+		839B75601AA10ACC00C8F4A1 /* chinwag_testcase_join_dicks in Resources */ = {isa = PBXBuildFile; fileRef = 839B75571AA10ACC00C8F4A1 /* chinwag_testcase_join_dicks */; };
+		839B75611AA10ACC00C8F4A1 /* chinwag_testcase_join_hyphens in Resources */ = {isa = PBXBuildFile; fileRef = 839B75581AA10ACC00C8F4A1 /* chinwag_testcase_join_hyphens */; };
+		839B75621AA10ACC00C8F4A1 /* chinwag_testcase_prune_original in Resources */ = {isa = PBXBuildFile; fileRef = 839B75591AA10ACC00C8F4A1 /* chinwag_testcase_prune_original */; };
+		839B75631AA10ACC00C8F4A1 /* chinwag_testcase_prune_pruned in Resources */ = {isa = PBXBuildFile; fileRef = 839B755A1AA10ACC00C8F4A1 /* chinwag_testcase_prune_pruned */; };
+		839B75641AA10ACC00C8F4A1 /* chinwag_testcase_seuss_dict_to_s in Resources */ = {isa = PBXBuildFile; fileRef = 839B755B1AA10ACC00C8F4A1 /* chinwag_testcase_seuss_dict_to_s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +88,15 @@
 		836CAB321A9FCF39003BC3CA /* tokenize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenize.h; sourceTree = "<group>"; };
 		836CAB331A9FCF39003BC3CA /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utility.c; sourceTree = "<group>"; };
 		836CAB341A9FCF39003BC3CA /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		839B75531AA10ACC00C8F4A1 /* chinwag_testcase_clean_cleaned */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_clean_cleaned; sourceTree = "<group>"; };
+		839B75541AA10ACC00C8F4A1 /* chinwag_testcase_clean_original */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_clean_original; sourceTree = "<group>"; };
+		839B75551AA10ACC00C8F4A1 /* chinwag_testcase_join_comma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_join_comma; sourceTree = "<group>"; };
+		839B75561AA10ACC00C8F4A1 /* chinwag_testcase_join_default */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_join_default; sourceTree = "<group>"; };
+		839B75571AA10ACC00C8F4A1 /* chinwag_testcase_join_dicks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_join_dicks; sourceTree = "<group>"; };
+		839B75581AA10ACC00C8F4A1 /* chinwag_testcase_join_hyphens */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_join_hyphens; sourceTree = "<group>"; };
+		839B75591AA10ACC00C8F4A1 /* chinwag_testcase_prune_original */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_prune_original; sourceTree = "<group>"; };
+		839B755A1AA10ACC00C8F4A1 /* chinwag_testcase_prune_pruned */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_prune_pruned; sourceTree = "<group>"; };
+		839B755B1AA10ACC00C8F4A1 /* chinwag_testcase_seuss_dict_to_s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chinwag_testcase_seuss_dict_to_s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +161,7 @@
 				8369BAE61A9FB270006C8E68 /* DictionaryTests.swift */,
 				8369BAAB1A9FA772006C8E68 /* DuhhhTests.swift */,
 				8369BAE81A9FB27A006C8E68 /* GenerationTests.swift */,
+				839B75521AA10ACC00C8F4A1 /* TestCases */,
 				8369BAA91A9FA772006C8E68 /* Supporting Files */,
 			);
 			path = Tests;
@@ -183,6 +202,22 @@
 				836CAB341A9FCF39003BC3CA /* utility.h */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		839B75521AA10ACC00C8F4A1 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				839B75531AA10ACC00C8F4A1 /* chinwag_testcase_clean_cleaned */,
+				839B75541AA10ACC00C8F4A1 /* chinwag_testcase_clean_original */,
+				839B75551AA10ACC00C8F4A1 /* chinwag_testcase_join_comma */,
+				839B75561AA10ACC00C8F4A1 /* chinwag_testcase_join_default */,
+				839B75571AA10ACC00C8F4A1 /* chinwag_testcase_join_dicks */,
+				839B75581AA10ACC00C8F4A1 /* chinwag_testcase_join_hyphens */,
+				839B75591AA10ACC00C8F4A1 /* chinwag_testcase_prune_original */,
+				839B755A1AA10ACC00C8F4A1 /* chinwag_testcase_prune_pruned */,
+				839B755B1AA10ACC00C8F4A1 /* chinwag_testcase_seuss_dict_to_s */,
+			);
+			path = TestCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +328,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839B75611AA10ACC00C8F4A1 /* chinwag_testcase_join_hyphens in Resources */,
+				839B755F1AA10ACC00C8F4A1 /* chinwag_testcase_join_default in Resources */,
+				839B75641AA10ACC00C8F4A1 /* chinwag_testcase_seuss_dict_to_s in Resources */,
+				839B755C1AA10ACC00C8F4A1 /* chinwag_testcase_clean_cleaned in Resources */,
+				839B755E1AA10ACC00C8F4A1 /* chinwag_testcase_join_comma in Resources */,
+				839B75601AA10ACC00C8F4A1 /* chinwag_testcase_join_dicks in Resources */,
+				839B75621AA10ACC00C8F4A1 /* chinwag_testcase_prune_original in Resources */,
+				839B755D1AA10ACC00C8F4A1 /* chinwag_testcase_clean_original in Resources */,
+				839B75631AA10ACC00C8F4A1 /* chinwag_testcase_prune_pruned in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

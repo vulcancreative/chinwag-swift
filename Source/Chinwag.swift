@@ -11,7 +11,7 @@ import Foundation
 public let version = String.fromCString(CW_VERSION)!
 
 // public typealias CWDict = cwdict_t
-public class CWDict: NSObject {
+public class CWDict: NSObject, NSCopying {
   public var name: String {
     get {
       return String.fromCString(self.dict.name)!
@@ -166,6 +166,7 @@ public func open(#embedded: CWEmbedded)
   }
 }
 
+/*
 // TODO : implement
 infix operator + { associativity left precedence 140 }
 public func +(left: CWDict, right: String)
@@ -212,13 +213,17 @@ public func !=(left: CWDict, right: CWDict)
 -> Bool {
   return cwdict_inequal(left.dict, right.dict)
 }
+*/
 
 // separate extension for the sake of organization
 public extension CWDict {
-  // TODO : implement
-  override public func copy()
+  public func copyWithZone(zone: NSZone)
   -> AnyObject {
-    return open()
+    var copy = open()
+
+    copy.dict = self.dict
+
+    return copy
   }
 
   public func sort() {
@@ -301,7 +306,52 @@ public extension CWDict {
   // TODO : implement
   public func string()
   -> String {
-    return ""
+    var result = ""; var index: UInt = 0; let length = self.length
+    let rowCount = self.dict.count
+
+    result += "["
+
+    for var i: UInt = 0; i != rowCount; ++i {
+      // if index >= length { break }
+      result += "["
+
+      let current = self.dict.drows[Int(i)]
+      let wordCount = current.count
+
+      if current.words != nil {
+        for var j: UInt = 0; j != wordCount; ++j {
+          // println("\(index) of \(length)")
+          let word = String.fromCString(current.words[Int(j)])
+          if word == nil {
+            result += "]]"
+            return result
+          }
+          // println("[\(index):\(length)] \(word)")
+
+          result += word!
+
+          ++index; // println("index : \(index)")
+          if index >= length {
+            result += "]]"
+            return result
+          }
+
+          if j < wordCount - 1 {
+            result += ", "
+          }
+        }
+      }
+
+      result += "]"
+
+      if i < rowCount - 1 {
+        result += ", "
+      }
+    }
+
+    result += "]"
+
+    return result
   }
 
   public func close() {
